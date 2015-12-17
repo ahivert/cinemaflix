@@ -4,6 +4,7 @@ class Torrent(object):
         self.title = ''
         self.torrent_url = ''
         self.seeds = 0
+        self.leechers = 0
         self.size = ''
 
     def __eq__(self, other):

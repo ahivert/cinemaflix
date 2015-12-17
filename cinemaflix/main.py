@@ -8,7 +8,7 @@ from dateutil.parser import parse
 from prettytable import PrettyTable
 from sabertooth import subapi
 from termcolor import colored
-from utils import TorrentHandler
+from utils.handler import TorrentHandler
 
 
 class TSearch(object):
